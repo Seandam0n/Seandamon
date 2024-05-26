@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sean Damon - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        header {
+            background-color: #99ccff; /* pastel blue */
+            color: #333;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #ffcc99; /* pastel gold */
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 1rem;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1, h2 {
+            color: #00509e; /* dark blue */
+        }
+        footer {
+            background-color: #99ccff;
+            color: #333;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sean Damon</h1>
+    <p>UC Berkeley Undergraduate Student - Anthropology Major, Public Health Minor</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#work">Work Experience</a>
+    <a href="#education">Education History</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>Hello! I am Sean Damon, an undergraduate student at UC Berkeley. I am majoring in Anthropology and minoring in Public Health. My goal is to enter the public health field and contribute to improving community health and well-being.</p>
+    </div>
+</section>
+
+<section id="work">
+    <div class="container">
+        <h2>Work Experience</h2>
+        <p>Coming soon...</p>
+    </div>
+</section>
+
+<section id="education">
+    <div class="container">
+        <h2>Education History</h2>
+        <p>Currently pursuing a Bachelor's degree in Anthropology with a minor in Public Health at UC Berkeley.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h2>Contact</h2>
+        <p>You can reach me at: <a href="mailto:sean.damon@example.com">sean.damon@example.com</a></p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Sean Damon</p>
+</footer>
+
+</body>
+</html>
